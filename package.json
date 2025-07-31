@@ -1,9 +1,12 @@
 {
-  "name": "sukh-mind",
+  "name": "mindease",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://sukh-mind.github.io/sukh-mind",
+  "homepage": "https://masoomchoudhury.github.io/mindease",
+  "description": "AI-powered mental health chatbot built with React and Google Gemini AI",
+  "author": "Masoom Kumar Choudhury",
+  "keywords": ["react", "ai", "mental-health", "chatbot", "gemini-ai", "javascript"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +14,8 @@
     "preview": "vite preview",
     "format": "prettier . --write",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "vercel-build": "vite build"
   },
   "dependencies": {
     "@google/generative-ai": "^0.11.3",

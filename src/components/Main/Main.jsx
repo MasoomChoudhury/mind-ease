@@ -61,7 +61,7 @@ const Main = () => {
   return (
     <main className="main">
       <nav className="nav">
-        <p tabIndex={0}>SukhMind AI</p>
+        <p tabIndex={0}>MindEase AI</p>
       </nav>
       <div className="main-container">
         {!showResult ? (
@@ -159,7 +159,7 @@ const Main = () => {
             </div>
           </div>
           <p className="bottom-info">
-            SukhMind AI is here to support you but is not a replacement for
+            MindEase AI is here to support you but is not a replacement for
             professional help. If you're in crisis, please seek professional
             assistance.
           </p>
